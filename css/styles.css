@@ -1,0 +1,23 @@
+.body-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* pour que le wrapper prennent 100% de l'écran utilisé */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px; /* padding à l'interieur du bouton */
+    background-color: #05b105;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
